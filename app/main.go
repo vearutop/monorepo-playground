@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/vearutop/monorepo-playground/deep/another/v2"
-	monorepo "github.com/vearutop/monorepo-playground/go"
+	monorepo "github.com/vearutop/monorepo-playground/go/v3"
 )
 
 func main() {
@@ -66,3 +66,21 @@ func main() {
 
 // go get -u github.com/vearutop/monorepo-playground/go@ebfd72605c0e
 // go: upgraded github.com/vearutop/monorepo-playground/go v0.0.0-20221115195614-77518b3db090 => v0.0.0-20221115200137-ebfd72605c0e
+
+// .........
+
+// Go module is now go/v3
+// No v3.x.x tags are available.
+
+// go mod tidy
+// go: finding module for package github.com/vearutop/monorepo-playground/go/v3
+// go: downloading github.com/vearutop/monorepo-playground/go/v3 v3.0.0-20221115201755-a0e8e409bcfb
+// go: found github.com/vearutop/monorepo-playground/go/v3 in github.com/vearutop/monorepo-playground/go/v3 v3.0.0-20221115201755-a0e8e409bcfb
+
+// .........
+
+// Tag is created as v3.0.2.
+
+// go get -u github.com/vearutop/monorepo-playground/go/v3@v3.0.2
+// go: downloading github.com/vearutop/monorepo-playground v3.0.2+incompatible
+// go: module github.com/vearutop/monorepo-playground@v3.0.2 found (v3.0.2+incompatible), but does not contain package github.com/vearutop/monorepo-playground/go/v3

@@ -1,4 +1,4 @@
-github.com/vearutop/monorepo-playground/deep/another v0.0.0-20221115195614-77518b3db090 h1:/A8Ff9Ry7qMfd3jxuiJfpRNoyZdg3euzpcpx0kJDMYU=
-github.com/vearutop/monorepo-playground/deep/another v0.0.0-20221115195614-77518b3db090/go.mod h1:i4pFQE90WQDKdOeHUkVjMNT3zkleQtNn9gr75hDnLyg=
-github.com/vearutop/monorepo-playground/go v0.0.0-20221115195614-77518b3db090 h1:viaH8azmkm9MYlYCSLZpIxfOyUdRO44oJR4SG3yWrFk=
-github.com/vearutop/monorepo-playground/go v0.0.0-20221115195614-77518b3db090/go.mod h1:rjF/b+wdb9AxRQ4eNoHtYG6bcqMJa+xuSmyf4FjyRMI=
+github.com/vearutop/monorepo-playground/deep/another/v2 v2.0.0-20221115200137-ebfd72605c0e h1:pozvacGMD2qoEGx9UuKJeX3eBA7BVr6ef6X+wgZd8X8=
+github.com/vearutop/monorepo-playground/deep/another/v2 v2.0.0-20221115200137-ebfd72605c0e/go.mod h1:dNSQiK8FTw+ON8IzveGC53UV8OT4jtwqH/fmYLKg5j4=
+github.com/vearutop/monorepo-playground/go v0.0.0-20221115200137-ebfd72605c0e h1:yZJT1R8c2zOeF9GhEA0ggkg2jsbSkXHbN+3cTcQNnMU=
+github.com/vearutop/monorepo-playground/go v0.0.0-20221115200137-ebfd72605c0e/go.mod h1:rjF/b+wdb9AxRQ4eNoHtYG6bcqMJa+xuSmyf4FjyRMI=

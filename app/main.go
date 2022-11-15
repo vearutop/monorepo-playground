@@ -84,3 +84,23 @@ func main() {
 // go get -u github.com/vearutop/monorepo-playground/go/v3@v3.0.2
 // go: downloading github.com/vearutop/monorepo-playground v3.0.2+incompatible
 // go: module github.com/vearutop/monorepo-playground@v3.0.2 found (v3.0.2+incompatible), but does not contain package github.com/vearutop/monorepo-playground/go/v3
+
+// .........
+
+// Tag is created as go/v3.0.5.
+
+// Upgrading to newly tagged version fails at first as it does not seem to pull new tags.
+
+// go get -u github.com/vearutop/monorepo-playground/go/v3@v3.0.5
+// go: github.com/vearutop/monorepo-playground/go/v3@v3.0.5: invalid version: resolves to version v3.0.6-0.20221115201755-a0e8e409bcfb (v3.0.5 is not a tag)
+
+// Upgrading to @latest works.
+
+// go get -u github.com/vearutop/monorepo-playground/go/v3@latest
+// go: downloading github.com/vearutop/monorepo-playground/go/v3 v3.0.5
+// go: upgraded github.com/vearutop/monorepo-playground/go/v3 v3.0.0-20221115201755-a0e8e409bcfb => v3.0.5
+
+// Upgrading to tag directly works after that too.
+
+// go get -u github.com/vearutop/monorepo-playground/go/v3@v3.0.5
+// <no output>

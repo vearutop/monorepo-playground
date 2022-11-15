@@ -1,0 +1,4 @@
+github.com/vearutop/monorepo-playground/deep/another v0.0.0-20221115194840-4ee1160d23a9 h1:m9qcCSL2a32XHx5BX0TdAW0vDo215IqOxq5CTF0L+dQ=
+github.com/vearutop/monorepo-playground/deep/another v0.0.0-20221115194840-4ee1160d23a9/go.mod h1:i4pFQE90WQDKdOeHUkVjMNT3zkleQtNn9gr75hDnLyg=
+github.com/vearutop/monorepo-playground/go v0.0.0-20221115194840-4ee1160d23a9 h1:uVpNktuTNzqeFXaeT3RG0ECg3fKtAyL0mQ3N5VzLSjw=
+github.com/vearutop/monorepo-playground/go v0.0.0-20221115194840-4ee1160d23a9/go.mod h1:rjF/b+wdb9AxRQ4eNoHtYG6bcqMJa+xuSmyf4FjyRMI=

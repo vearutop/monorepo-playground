@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vearutop/monorepo-playground/deep/another/v2"
+	"github.com/vearutop/monorepo-playground/deep/another/v3"
 	monorepo "github.com/vearutop/monorepo-playground/go/v3"
 )
 
@@ -134,3 +134,12 @@ func main() {
 
 // go get -u github.com/vearutop/monorepo-playground/deep/another/v3@v3.0.7
 // go: github.com/vearutop/monorepo-playground/deep/another/v3@v3.0.7: invalid version: deep/another/go.mod has non-.../v3 module path "github.com/vearutop/monorepo-playground/deep/another/v2" (and .../v3/go.mod does not exist) at revision deep/another/v3.0.7
+
+// .........
+
+// Another module is now deep/another/v3.
+// Tag is created as deep/another/v3.0.8.
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v3@v3.0.8
+// go: downloading github.com/vearutop/monorepo-playground/deep/another/v3 v3.0.8
+// go: added github.com/vearutop/monorepo-playground/deep/another/v3 v3.0.8

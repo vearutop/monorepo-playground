@@ -104,3 +104,16 @@ func main() {
 
 // go get -u github.com/vearutop/monorepo-playground/go/v3@v3.0.5
 // <no output>
+
+// .........
+
+// Tag is created as deep/another/v2.1.0.
+
+// Upgrading to newly tagged version now works, so apparently it didn't work previously due to a short-living cache of tags.
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v2@v2.1.0
+// go: downloading github.com/vearutop/monorepo-playground/deep/another/v2 v2.1.0
+// go: upgraded github.com/vearutop/monorepo-playground/deep/another/v2 v2.0.0-20221115200137-ebfd72605c0e => v2.1.0
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v2@latest
+// <no output>

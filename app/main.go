@@ -117,3 +117,20 @@ func main() {
 
 // go get -u github.com/vearutop/monorepo-playground/deep/another/v2@latest
 // <no output>
+
+// .........
+
+// Tag is created as deep/another/v3.0.7.
+// Another module remains as deep/another/v2.
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v2@v3.0.7
+// go: github.com/vearutop/monorepo-playground/deep/another/v2@v3.0.7: invalid version: module path includes a major version suffix, so major version must match
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v2@latest
+// <no output>
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v3@latest
+// go: module github.com/vearutop/monorepo-playground@latest found (v3.0.2+incompatible), but does not contain package github.com/vearutop/monorepo-playground/deep/another/v3
+
+// go get -u github.com/vearutop/monorepo-playground/deep/another/v3@v3.0.7
+// go: github.com/vearutop/monorepo-playground/deep/another/v3@v3.0.7: invalid version: deep/another/go.mod has non-.../v3 module path "github.com/vearutop/monorepo-playground/deep/another/v2" (and .../v3/go.mod does not exist) at revision deep/another/v3.0.7
